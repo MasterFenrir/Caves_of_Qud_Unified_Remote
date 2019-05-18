@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <tabs>
+        <tab text="Move">
+            <row>
+                <button text="NW" ontap="nw"/>
+                <button text="N" ontap="n"/>
+                <button text="NE" ontap="ne"/>
+            </row>
+            <row>
+                <button text="W" ontap="w"/>
+                <button text="Wait" ontap="wait"/>
+                <button text="E" ontap="e"/>
+            </row>
+            <row>
+                <button text="SW" ontap="sw"/>
+                <button text="S" ontap="s"/>
+                <button text="SE" ontap="se"/>
+            </row>
+            <row>
+                <button text="Move up" ontap="up"/>
+                <button text="Auto-explore" ontap="explore"/>
+                <button text="Move down" ontap="down"/>
+            </row>
+        </tab>
+        <tab text="Attack">
+            <row>
+                <button text="NW" ontap="anw"/>
+                <button text="N" ontap="an"/>
+                <button text="NE" ontap="ane"/>
+            </row>
+            <row>
+                <button text="W" ontap="aw"/>
+                <button text="E" ontap="ae"/>
+            </row>
+            <row>
+                <button text="SW" ontap="asw"/>
+                <button text="S" ontap="as"/>
+                <button text="SE" ontap="ase"/>
+            </row>
+            <row>
+                <button text="Move up" ontap="aup"/>
+                <button text="Move down" ontap="adown"/>
+            </row>
+        </tab>
+        <tab text="Actions">
+            <row>
+                <button text="Use" ontap="use"/>
+                <button text="Talk" ontap="talk"/>
+                <button text="Look" ontap="look"/>
+                <button text="Get" ontap="get"/>
+            </row>
+            <row>
+                <button text="Interact" ontap="interact"/>
+                <button text="Open" ontap="open"/>
+                <button text="Ability" ontap="ability"/>
+                <button text="Select target" ontap="target"/>
+            </row>
+            <row>
+                <button text="Fire Missile" ontap="fire"/>
+                <button text="Reload Missile" ontap="reload"/>
+                <button text="Throw weapon" ontap="throw"/>
+                <button text="Walk" ontap="walk"/>
+            </row>
+            <row>
+                <button text="Wait 20" ontap="wait20"/>
+                <button text="Wait 100" ontap="wait100"/>
+                <button text="Rest until healed" ontap="heal"/>
+                <button text="Rest until morning" ontap="morning"/>
+            </row>
+        </tab>
+        <tab text="Status">
+            <row>
+                <button text="Inventory" ontap="inventory"/>
+                <button text="Equipment" ontap="equipment"/>
+                <button text="Skills" ontap="skills"/>
+            </row>
+            <row>
+                <button text="Character" ontap="character"/>
+                <button text="Quests" ontap="quests"/>
+                <button text="Factions" ontap="factions"/>
+            </row>
+            <row>
+                <button text="Tinkering" ontap="tinkering"/>
+                <button text="Journal" ontap="journal"/>
+                <button text="Message History" ontap="message"/>
+            </row>
+        </tab>
+        <tab text="System">
+            <row weight="1">
+                <button text="Sidebar" ontap="sidebar"/>
+                <button text="Sidebar Mode" ontap="sidebarmode"/>
+                <button text="Help" ontap="help"/>
+            </row>
+            <row weight="1">
+                <button text="Load" ontap="load"/>
+                <button text="Save" ontap="save"/>
+                <button text="Escape" ontap="escape"/>
+            </row>
+            <row weight="4">
+                <grid>
+                    <row>
+                        <button text="Up" ontap="upkey"/>
+                    </row>
+                    <row>
+                        <button text="Left" ontap="leftkey"/>
+                        <button text="Enter" ontap="enter"/>
+                        <button text="Right" ontap="rightkey"/>
+                    </row>
+                    <row>
+                        <button text="Down" ontap="downkey"/>
+                    </row>
+                </grid>
+            </row>
+        </tab>
+    </tabs>
+</layout>
